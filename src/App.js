@@ -12,7 +12,7 @@ function App() {
             Coded by Diana M. {""}
             <a
               className="Git-link"
-              href="https://github.com/dianatech-id"
+              href="https://github.com/dianatech-id/react-weather-app"
               target="_blank"
               rel="noopener noreferrer"
             >
