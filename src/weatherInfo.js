@@ -7,11 +7,11 @@ export default function WeatherInfo(props) {
   return (
     <div className="weatherInfo">
       <div className="row text-center">
-        <div className="col-4">
+        <div className="col-5">
           <h1 className="namecity">{props.data.city}</h1>
         </div>
 
-        <div className="col-5">
+        <div className="col-4">
           <h1>
             <WeatherTemp celsius={props.data.temp} />
           </h1>

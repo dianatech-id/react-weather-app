@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather {
+  margin-top: 50px;
+  border: 2px solid #8046df;
+  display: block;
+  border-radius: 10px;
+  width: 750px;
+}
+
+h2 {
+  color: #8046df;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: #404041;
+  font-size: 52px;
+}
+
+.namecity {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+strong {
+  font-size: 15px;
+}
+
+hr {
+  border: 2px solid #240555;
+}
+
+.weatherTemp a {
+  text-decoration: none;
+  color: #a47fe0;
+}
+.weatherTemp {
+  margin-right: 6px;
+  text-decoration: none;
+}
+.unit {
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  top: -30px;
+  right: -5px;
+  text-decoration: none;
+}
+
+.shadow-sn {
+  text-align: center;
+  color: white;
+  background: #8046df;
+  border: #8046df;
+  display: block;
+  font-size: 15px;
+  box-shadow: 5px 5px 10px rgb(168, 165, 165);
+  transition: all 200ms ease-in-out;
+}
+
+.shadow-sn:hover {
+  background: #a47fe0;
+  color: white;
+  cursor: pointer;
+  border: #a47fe0;
+}
